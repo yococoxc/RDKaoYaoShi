@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "RD__RootController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,8 +19,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self toOK:self.window];
+    
     return YES;
 }
+
+- (void) toOK:(UIWindow*)window {
+    window.backgroundColor = [UIColor whiteColor];
+    
+    RD__RootController* temp = [RD__RootController shareController];
+    window.rootViewController = temp;
+    [window makeKeyAndVisible];
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
