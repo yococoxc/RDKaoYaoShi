@@ -47,6 +47,10 @@
 		D23C5DF4214250CD0075E13F /* LQS_Icon_Home_C.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C5DB7214250CC0075E13F /* LQS_Icon_Home_C.png */; };
 		D23C5DF5214250CD0075E13F /* LQS_Icon_More_B.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C5DB8214250CC0075E13F /* LQS_Icon_More_B.png */; };
 		D23C5DF6214250CD0075E13F /* LQS_Icon_Top.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C5DB9214250CC0075E13F /* LQS_Icon_Top.png */; };
+		D24F8BDD214B53EE00DD74E7 /* RD__CourseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D24F8BDC214B53EE00DD74E7 /* RD__CourseView.m */; };
+		D24F8BE2214B54B500DD74E7 /* RD__SelectedCourseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D24F8BE1214B54B500DD74E7 /* RD__SelectedCourseView.m */; };
+		D24F8BE6214B54E200DD74E7 /* RD__SelectedCourseController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24F8BE5214B54E200DD74E7 /* RD__SelectedCourseController.m */; };
+		D24F8BE9214B55D200DD74E7 /* CourseTypeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D24F8BE8214B55D200DD74E7 /* CourseTypeRequest.m */; };
 		D26A96BE2147559100A63930 /* HomeUserOrderDetailsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A96BD2147559100A63930 /* HomeUserOrderDetailsRequest.m */; };
 		D26A96C121475CFC00A63930 /* HomeActityRecommendListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A96C021475CFC00A63930 /* HomeActityRecommendListRequest.m */; };
 		D26A96C4214760DC00A63930 /* RD__HomeCollectionReusableActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A96C3214760DC00A63930 /* RD__HomeCollectionReusableActivityCell.m */; };
@@ -232,6 +236,14 @@
 		D23C5DED214250CD0075E13F /* UITextField+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LQS.h"; sourceTree = "<group>"; };
 		D23C5DEE214250CD0075E13F /* UIView+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LQS.h"; sourceTree = "<group>"; };
 		D23C5DEF214250CD0075E13F /* UIViewController+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LQS.h"; sourceTree = "<group>"; };
+		D24F8BDB214B53EE00DD74E7 /* RD__CourseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RD__CourseView.h; sourceTree = "<group>"; };
+		D24F8BDC214B53EE00DD74E7 /* RD__CourseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RD__CourseView.m; sourceTree = "<group>"; };
+		D24F8BE0214B54B500DD74E7 /* RD__SelectedCourseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RD__SelectedCourseView.h; sourceTree = "<group>"; };
+		D24F8BE1214B54B500DD74E7 /* RD__SelectedCourseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RD__SelectedCourseView.m; sourceTree = "<group>"; };
+		D24F8BE4214B54E200DD74E7 /* RD__SelectedCourseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RD__SelectedCourseController.h; sourceTree = "<group>"; };
+		D24F8BE5214B54E200DD74E7 /* RD__SelectedCourseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RD__SelectedCourseController.m; sourceTree = "<group>"; };
+		D24F8BE7214B55D200DD74E7 /* CourseTypeRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseTypeRequest.h; sourceTree = "<group>"; };
+		D24F8BE8214B55D200DD74E7 /* CourseTypeRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseTypeRequest.m; sourceTree = "<group>"; };
 		D26A96BC2147559100A63930 /* HomeUserOrderDetailsRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeUserOrderDetailsRequest.h; sourceTree = "<group>"; };
 		D26A96BD2147559100A63930 /* HomeUserOrderDetailsRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeUserOrderDetailsRequest.m; sourceTree = "<group>"; };
 		D26A96BF21475CFC00A63930 /* HomeActityRecommendListRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeActityRecommendListRequest.h; sourceTree = "<group>"; };
@@ -443,6 +455,8 @@
 				D26A96C021475CFC00A63930 /* HomeActityRecommendListRequest.m */,
 				D272D954214766A1004606DA /* HomeActityListRequest.h */,
 				D272D955214766A1004606DA /* HomeActityListRequest.m */,
+				D24F8BE7214B55D200DD74E7 /* CourseTypeRequest.h */,
+				D24F8BE8214B55D200DD74E7 /* CourseTypeRequest.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -450,6 +464,8 @@
 		D234132C213F413F00644E4C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D24F8BDF214B549F00DD74E7 /* 选择课程 */,
+				D24F8BDA214B53DC00DD74E7 /* 课程 */,
 				D272D95E21477048004606DA /* 活动精选 */,
 				D23B1848213FAF2B0045BBD8 /* 首页 */,
 				D23B1830213F9BD00045BBD8 /* Main */,
@@ -474,6 +490,7 @@
 		D234132F213F415100644E4C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D24F8BE3214B54CB00DD74E7 /* 选择课程 */,
 				D272D95A21476FE9004606DA /* 活动精选 */,
 				D272D950214763EA004606DA /* 网页 */,
 				D2341337213F423800644E4C /* 首页 */,
@@ -709,6 +726,33 @@
 				D23C5DEF214250CD0075E13F /* UIViewController+LQS.h */,
 			);
 			path = LQSKit;
+			sourceTree = "<group>";
+		};
+		D24F8BDA214B53DC00DD74E7 /* 课程 */ = {
+			isa = PBXGroup;
+			children = (
+				D24F8BDB214B53EE00DD74E7 /* RD__CourseView.h */,
+				D24F8BDC214B53EE00DD74E7 /* RD__CourseView.m */,
+			);
+			path = "课程";
+			sourceTree = "<group>";
+		};
+		D24F8BDF214B549F00DD74E7 /* 选择课程 */ = {
+			isa = PBXGroup;
+			children = (
+				D24F8BE0214B54B500DD74E7 /* RD__SelectedCourseView.h */,
+				D24F8BE1214B54B500DD74E7 /* RD__SelectedCourseView.m */,
+			);
+			path = "选择课程";
+			sourceTree = "<group>";
+		};
+		D24F8BE3214B54CB00DD74E7 /* 选择课程 */ = {
+			isa = PBXGroup;
+			children = (
+				D24F8BE4214B54E200DD74E7 /* RD__SelectedCourseController.h */,
+				D24F8BE5214B54E200DD74E7 /* RD__SelectedCourseController.m */,
+			);
+			path = "选择课程";
 			sourceTree = "<group>";
 		};
 		D272D950214763EA004606DA /* 网页 */ = {
@@ -1023,6 +1067,7 @@
 				D2902C052143631400700C00 /* CALayer+YYWebImage.m in Sources */,
 				D2902B8E21435ACF00700C00 /* CommonMainController.m in Sources */,
 				D26A96C4214760DC00A63930 /* RD__HomeCollectionReusableActivityCell.m in Sources */,
+				D24F8BE2214B54B500DD74E7 /* RD__SelectedCourseView.m in Sources */,
 				D2902BF12143631400700C00 /* MJRefreshAutoGifFooter.m in Sources */,
 				D23B17F1213F95740045BBD8 /* MASViewConstraint.m in Sources */,
 				D2902C102143631400700C00 /* YYWebImageManager.m in Sources */,
@@ -1037,6 +1082,7 @@
 				D2902B8F21435ACF00700C00 /* CommonRootController.m in Sources */,
 				D2902C092143631400700C00 /* UIImageView+YYWebImage.m in Sources */,
 				D23B183E213FADD90045BBD8 /* RD__QuestionBankController.m in Sources */,
+				D24F8BDD214B53EE00DD74E7 /* RD__CourseView.m in Sources */,
 				D23B17EC213F95740045BBD8 /* MASCompositeConstraint.m in Sources */,
 				D2902BF62143631400700C00 /* MJRefreshBackStateFooter.m in Sources */,
 				D2902C0D2143631400700C00 /* YYImageCoder.m in Sources */,
@@ -1059,9 +1105,11 @@
 				D2902BF22143631400700C00 /* MJRefreshAutoNormalFooter.m in Sources */,
 				D23B17F5213F95740045BBD8 /* ViewController+MASAdditions.m in Sources */,
 				D23B17F4213F95740045BBD8 /* View+MASAdditions.m in Sources */,
+				D24F8BE9214B55D200DD74E7 /* CourseTypeRequest.m in Sources */,
 				D23B17F0213F95740045BBD8 /* MASViewAttribute.m in Sources */,
 				D23B1847213FAE410045BBD8 /* RD__MineController.m in Sources */,
 				D2902C032143631400700C00 /* YYMemoryCache.m in Sources */,
+				D24F8BE6214B54E200DD74E7 /* RD__SelectedCourseController.m in Sources */,
 				D2902C0B2143631400700C00 /* YYFrameImage.m in Sources */,
 				D2902BF52143631400700C00 /* MJRefreshBackNormalFooter.m in Sources */,
 				D2902C112143631400700C00 /* YYWebImageOperation.m in Sources */,

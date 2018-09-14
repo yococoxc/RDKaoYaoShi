@@ -7,8 +7,12 @@
 //
 
 #import "RD__CourseController.h"
+#import "RD__CourseView.h"
+#import "RD__SelectedCourseController.h"
 
 @interface RD__CourseController ()
+
+@property(nonatomic,strong) RD__CourseView* myView;
 
 @end
 
@@ -20,6 +24,21 @@
     
     self.headTitle = @"课程";
     
+    self.headView.style = LQSHeadViewStyleLeft;
+    self.headView.leftButton.lqs__textColor = @"#000";
+    self.headView.leftButton.lqs__text = @"AAAA";
+    
+    
+    RD__CourseView* myView = [RD__CourseView new];
+    [self setupBodyView:myView];
+    self.myView = myView;
+    
+}
+
+
+- (void) pressedButtonToDoSomethingWithLeftButton:(UIButton *)sender {
+    RD__SelectedCourseController* controller = [RD__SelectedCourseController new];
+    [self lqs__currentNavigationControllerPushViewController:controller];
 }
 
 @end
