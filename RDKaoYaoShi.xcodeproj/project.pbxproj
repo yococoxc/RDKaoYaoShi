@@ -40,13 +40,6 @@
 		D23B1857213FB1060045BBD8 /* RD__HomeCollectionReusableRecommendLiveBroadcast.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B1856213FB1060045BBD8 /* RD__HomeCollectionReusableRecommendLiveBroadcast.m */; };
 		D23B185A213FB13A0045BBD8 /* RD__HomeCollectionReusableRecommendCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B1859213FB13A0045BBD8 /* RD__HomeCollectionReusableRecommendCourse.m */; };
 		D23B185D213FB1790045BBD8 /* RD__HomeCollectionReusableTopActivities.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B185C213FB1790045BBD8 /* RD__HomeCollectionReusableTopActivities.m */; };
-		D23C5DF0214250CD0075E13F /* libLQSKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C5DB0214250CC0075E13F /* libLQSKit.a */; };
-		D23C5DF1214250CD0075E13F /* LQS_Icon_Arrow_Down_B.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C5DB4214250CC0075E13F /* LQS_Icon_Arrow_Down_B.png */; };
-		D23C5DF2214250CD0075E13F /* LQS_Icon_Arrow_Left_B.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C5DB5214250CC0075E13F /* LQS_Icon_Arrow_Left_B.png */; };
-		D23C5DF3214250CD0075E13F /* LQS_Icon_Arrow_Up_B.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C5DB6214250CC0075E13F /* LQS_Icon_Arrow_Up_B.png */; };
-		D23C5DF4214250CD0075E13F /* LQS_Icon_Home_C.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C5DB7214250CC0075E13F /* LQS_Icon_Home_C.png */; };
-		D23C5DF5214250CD0075E13F /* LQS_Icon_More_B.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C5DB8214250CC0075E13F /* LQS_Icon_More_B.png */; };
-		D23C5DF6214250CD0075E13F /* LQS_Icon_Top.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C5DB9214250CC0075E13F /* LQS_Icon_Top.png */; };
 		D24F8BDD214B53EE00DD74E7 /* RD__CourseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D24F8BDC214B53EE00DD74E7 /* RD__CourseView.m */; };
 		D24F8BE2214B54B500DD74E7 /* RD__SelectedCourseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D24F8BE1214B54B500DD74E7 /* RD__SelectedCourseView.m */; };
 		D24F8BE6214B54E200DD74E7 /* RD__SelectedCourseController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24F8BE5214B54E200DD74E7 /* RD__SelectedCourseController.m */; };
@@ -101,6 +94,17 @@
 		D2902C0F2143631400700C00 /* YYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D2902BE62143631400700C00 /* YYImageCache.m */; };
 		D2902C102143631400700C00 /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2902BE92143631400700C00 /* YYWebImageManager.m */; };
 		D2902C112143631400700C00 /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D2902BEB2143631400700C00 /* YYWebImageOperation.m */; };
+		D2A43B6221D29755005C69D8 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A43B6121D29755005C69D8 /* MainNavigationController.m */; };
+		D2A43B6521D2976A005C69D8 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A43B6421D2976A005C69D8 /* MainTabBarController.m */; };
+		D2A43B6821D29780005C69D8 /* MainBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A43B6721D29780005C69D8 /* MainBoxController.m */; };
+		D2A43B7A21D29852005C69D8 /* YCMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A43B7921D29852005C69D8 /* YCMineVC.m */; };
+		D2A43B7D21D29871005C69D8 /* YCCourseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A43B7C21D29871005C69D8 /* YCCourseVC.m */; };
+		D2A43B8021D298A2005C69D8 /* YCLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A43B7F21D298A2005C69D8 /* YCLiveVC.m */; };
+		D2A43B8321D298C6005C69D8 /* YCQuestionBankVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A43B8221D298C6005C69D8 /* YCQuestionBankVC.m */; };
+		D2A43B8621D298D4005C69D8 /* YCHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A43B8521D298D4005C69D8 /* YCHomeVC.m */; };
+		D2A43B8921D29D31005C69D8 /* YCQuestionBankView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A43B8821D29D31005C69D8 /* YCQuestionBankView.m */; };
+		D2AAD3742159FDB000765B92 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAD3732159FDB000765B92 /* libstdc++.6.0.9.tbd */; };
+		D2FA118521D30F6A001A9713 /* LQSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FA118421D30F6A001A9713 /* LQSKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -173,69 +177,6 @@
 		D23B1859213FB13A0045BBD8 /* RD__HomeCollectionReusableRecommendCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RD__HomeCollectionReusableRecommendCourse.m; sourceTree = "<group>"; };
 		D23B185B213FB1790045BBD8 /* RD__HomeCollectionReusableTopActivities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RD__HomeCollectionReusableTopActivities.h; sourceTree = "<group>"; };
 		D23B185C213FB1790045BBD8 /* RD__HomeCollectionReusableTopActivities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RD__HomeCollectionReusableTopActivities.m; sourceTree = "<group>"; };
-		D23C5DB0214250CC0075E13F /* libLQSKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLQSKit.a; sourceTree = "<group>"; };
-		D23C5DB2214250CC0075E13F /* EasyGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyGroupView.h; sourceTree = "<group>"; };
-		D23C5DB3214250CC0075E13F /* LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQS.h; sourceTree = "<group>"; };
-		D23C5DB4214250CC0075E13F /* LQS_Icon_Arrow_Down_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LQS_Icon_Arrow_Down_B.png; sourceTree = "<group>"; };
-		D23C5DB5214250CC0075E13F /* LQS_Icon_Arrow_Left_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LQS_Icon_Arrow_Left_B.png; sourceTree = "<group>"; };
-		D23C5DB6214250CC0075E13F /* LQS_Icon_Arrow_Up_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LQS_Icon_Arrow_Up_B.png; sourceTree = "<group>"; };
-		D23C5DB7214250CC0075E13F /* LQS_Icon_Home_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LQS_Icon_Home_C.png; sourceTree = "<group>"; };
-		D23C5DB8214250CC0075E13F /* LQS_Icon_More_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LQS_Icon_More_B.png; sourceTree = "<group>"; };
-		D23C5DB9214250CC0075E13F /* LQS_Icon_Top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LQS_Icon_Top.png; sourceTree = "<group>"; };
-		D23C5DBA214250CC0075E13F /* LQSAverageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSAverageView.h; sourceTree = "<group>"; };
-		D23C5DBB214250CC0075E13F /* LQSBasicCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSBasicCollectionReusableView.h; sourceTree = "<group>"; };
-		D23C5DBC214250CC0075E13F /* LQSBasicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSBasicCollectionViewCell.h; sourceTree = "<group>"; };
-		D23C5DBD214250CC0075E13F /* LQSBasicControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSBasicControl.h; sourceTree = "<group>"; };
-		D23C5DBE214250CC0075E13F /* LQSBasicControlTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSBasicControlTemplate.h; sourceTree = "<group>"; };
-		D23C5DBF214250CC0075E13F /* LQSBasicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSBasicObject.h; sourceTree = "<group>"; };
-		D23C5DC0214250CC0075E13F /* LQSBasicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSBasicTableViewCell.h; sourceTree = "<group>"; };
-		D23C5DC1214250CC0075E13F /* LQSBasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSBasicView.h; sourceTree = "<group>"; };
-		D23C5DC2214250CC0075E13F /* LQSBasicViewTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSBasicViewTemplate.h; sourceTree = "<group>"; };
-		D23C5DC3214250CC0075E13F /* LQSBasicViewTemplateControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSBasicViewTemplateControl.h; sourceTree = "<group>"; };
-		D23C5DC4214250CC0075E13F /* LQSCollectionSectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSCollectionSectionItem.h; sourceTree = "<group>"; };
-		D23C5DC5214250CC0075E13F /* LQSCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSCollectionView.h; sourceTree = "<group>"; };
-		D23C5DC6214250CC0075E13F /* LQSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSController.h; sourceTree = "<group>"; };
-		D23C5DC7214250CC0075E13F /* LQSControllerTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSControllerTemplate.h; sourceTree = "<group>"; };
-		D23C5DC8214250CC0075E13F /* LQSHeadCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSHeadCollectionViewController.h; sourceTree = "<group>"; };
-		D23C5DC9214250CC0075E13F /* LQSHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSHeadView.h; sourceTree = "<group>"; };
-		D23C5DCA214250CC0075E13F /* LQSHeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSHeadViewController.h; sourceTree = "<group>"; };
-		D23C5DCB214250CC0075E13F /* LQSHeadWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSHeadWebViewController.h; sourceTree = "<group>"; };
-		D23C5DCC214250CC0075E13F /* LQSImageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSImageControl.h; sourceTree = "<group>"; };
-		D23C5DCD214250CC0075E13F /* LQSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSKit.h; sourceTree = "<group>"; };
-		D23C5DCE214250CC0075E13F /* LQSMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSMenu.h; sourceTree = "<group>"; };
-		D23C5DCF214250CC0075E13F /* LQSMenuDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSMenuDetailView.h; sourceTree = "<group>"; };
-		D23C5DD0214250CC0075E13F /* LQSMenuScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSMenuScrollPageView.h; sourceTree = "<group>"; };
-		D23C5DD1214250CC0075E13F /* LQSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSModel.h; sourceTree = "<group>"; };
-		D23C5DD2214250CC0075E13F /* LQSNotitia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSNotitia.h; sourceTree = "<group>"; };
-		D23C5DD3214250CC0075E13F /* LQSPredefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSPredefined.h; sourceTree = "<group>"; };
-		D23C5DD4214250CC0075E13F /* LQSProjectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSProjectAdapter.h; sourceTree = "<group>"; };
-		D23C5DD5214250CC0075E13F /* LQSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSRequest.h; sourceTree = "<group>"; };
-		D23C5DD6214250CC0075E13F /* LQSRequestImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSRequestImplement.h; sourceTree = "<group>"; };
-		D23C5DD7214250CC0075E13F /* LQSRequestParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSRequestParse.h; sourceTree = "<group>"; };
-		D23C5DD8214250CC0075E13F /* LQSRequestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSRequestResponse.h; sourceTree = "<group>"; };
-		D23C5DD9214250CC0075E13F /* LQSScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSScrollPageView.h; sourceTree = "<group>"; };
-		D23C5DDA214250CC0075E13F /* LQSStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSStore.h; sourceTree = "<group>"; };
-		D23C5DDB214250CC0075E13F /* LQSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSTabBarController.h; sourceTree = "<group>"; };
-		D23C5DDC214250CC0075E13F /* LQSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSView.h; sourceTree = "<group>"; };
-		D23C5DDD214250CD0075E13F /* LQSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSViewController.h; sourceTree = "<group>"; };
-		D23C5DDE214250CD0075E13F /* LQSViewTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSViewTemplate.h; sourceTree = "<group>"; };
-		D23C5DDF214250CD0075E13F /* LQSViewTemplateCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSViewTemplateCollection.h; sourceTree = "<group>"; };
-		D23C5DE0214250CD0075E13F /* LQSViewTemplateCollectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSViewTemplateCollectionItem.h; sourceTree = "<group>"; };
-		D23C5DE1214250CD0075E13F /* LQSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSWebView.h; sourceTree = "<group>"; };
-		D23C5DE2214250CD0075E13F /* NSArray+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LQS.h"; sourceTree = "<group>"; };
-		D23C5DE3214250CD0075E13F /* NSDate+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LQS.h"; sourceTree = "<group>"; };
-		D23C5DE4214250CD0075E13F /* NSDictionary+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LQS.h"; sourceTree = "<group>"; };
-		D23C5DE5214250CD0075E13F /* NSObject+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LQS.h"; sourceTree = "<group>"; };
-		D23C5DE6214250CD0075E13F /* NSString+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LQS.h"; sourceTree = "<group>"; };
-		D23C5DE7214250CD0075E13F /* UIAlertView+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+LQS.h"; sourceTree = "<group>"; };
-		D23C5DE8214250CD0075E13F /* UIButton+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LQS.h"; sourceTree = "<group>"; };
-		D23C5DE9214250CD0075E13F /* UICollectionView+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+LQS.h"; sourceTree = "<group>"; };
-		D23C5DEA214250CD0075E13F /* UIControl+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+LQS.h"; sourceTree = "<group>"; };
-		D23C5DEB214250CD0075E13F /* UIImageView+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LQS.h"; sourceTree = "<group>"; };
-		D23C5DEC214250CD0075E13F /* UILabel+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LQS.h"; sourceTree = "<group>"; };
-		D23C5DED214250CD0075E13F /* UITextField+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LQS.h"; sourceTree = "<group>"; };
-		D23C5DEE214250CD0075E13F /* UIView+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LQS.h"; sourceTree = "<group>"; };
-		D23C5DEF214250CD0075E13F /* UIViewController+LQS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LQS.h"; sourceTree = "<group>"; };
 		D24F8BDB214B53EE00DD74E7 /* RD__CourseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RD__CourseView.h; sourceTree = "<group>"; };
 		D24F8BDC214B53EE00DD74E7 /* RD__CourseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RD__CourseView.m; sourceTree = "<group>"; };
 		D24F8BE0214B54B500DD74E7 /* RD__SelectedCourseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RD__SelectedCourseView.h; sourceTree = "<group>"; };
@@ -346,6 +287,26 @@
 		D2902BE92143631400700C00 /* YYWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageManager.m; sourceTree = "<group>"; };
 		D2902BEA2143631400700C00 /* YYWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageOperation.h; sourceTree = "<group>"; };
 		D2902BEB2143631400700C00 /* YYWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageOperation.m; sourceTree = "<group>"; };
+		D2A43B6021D29755005C69D8 /* MainNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		D2A43B6121D29755005C69D8 /* MainNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		D2A43B6321D2976A005C69D8 /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		D2A43B6421D2976A005C69D8 /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		D2A43B6621D29780005C69D8 /* MainBoxController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainBoxController.h; sourceTree = "<group>"; };
+		D2A43B6721D29780005C69D8 /* MainBoxController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainBoxController.m; sourceTree = "<group>"; };
+		D2A43B7821D29852005C69D8 /* YCMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCMineVC.h; sourceTree = "<group>"; };
+		D2A43B7921D29852005C69D8 /* YCMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCMineVC.m; sourceTree = "<group>"; };
+		D2A43B7B21D29871005C69D8 /* YCCourseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCCourseVC.h; sourceTree = "<group>"; };
+		D2A43B7C21D29871005C69D8 /* YCCourseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCCourseVC.m; sourceTree = "<group>"; };
+		D2A43B7E21D298A2005C69D8 /* YCLiveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCLiveVC.h; sourceTree = "<group>"; };
+		D2A43B7F21D298A2005C69D8 /* YCLiveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCLiveVC.m; sourceTree = "<group>"; };
+		D2A43B8121D298C6005C69D8 /* YCQuestionBankVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCQuestionBankVC.h; sourceTree = "<group>"; };
+		D2A43B8221D298C6005C69D8 /* YCQuestionBankVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCQuestionBankVC.m; sourceTree = "<group>"; };
+		D2A43B8421D298D4005C69D8 /* YCHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHomeVC.h; sourceTree = "<group>"; };
+		D2A43B8521D298D4005C69D8 /* YCHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHomeVC.m; sourceTree = "<group>"; };
+		D2A43B8721D29D31005C69D8 /* YCQuestionBankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCQuestionBankView.h; sourceTree = "<group>"; };
+		D2A43B8821D29D31005C69D8 /* YCQuestionBankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCQuestionBankView.m; sourceTree = "<group>"; };
+		D2AAD3732159FDB000765B92 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		D2FA118421D30F6A001A9713 /* LQSKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LQSKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,7 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23B183B213FAB9F0045BBD8 /* WebKit.framework in Frameworks */,
-				D23C5DF0214250CD0075E13F /* libLQSKit.a in Frameworks */,
+				D2AAD3742159FDB000765B92 /* libstdc++.6.0.9.tbd in Frameworks */,
+				D2FA118521D30F6A001A9713 /* LQSKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +326,8 @@
 		D2341304213F40AE00644E4C = {
 			isa = PBXGroup;
 			children = (
-				D2341326213F40F300644E4C /* AppSetup */,
+				D2A43B5C21D296E0005C69D8 /* AppSetup */,
+				D2341326213F40F300644E4C /* AppSetup(抛弃) */,
 				D234130F213F40AE00644E4C /* RDKaoYaoShi */,
 				D234130E213F40AE00644E4C /* Products */,
 				D23B1839213FAB9B0045BBD8 /* Frameworks */,
@@ -395,7 +358,7 @@
 			path = RDKaoYaoShi;
 			sourceTree = "<group>";
 		};
-		D2341326213F40F300644E4C /* AppSetup */ = {
+		D2341326213F40F300644E4C /* AppSetup(抛弃) */ = {
 			isa = PBXGroup;
 			children = (
 				D2902B8121435AA700700C00 /* Common */,
@@ -404,18 +367,16 @@
 				D234132A213F412700644E4C /* Resource */,
 				D2341329213F412000644E4C /* View */,
 				D2341328213F411900644E4C /* Controller */,
-				D2341327213F40FE00644E4C /* Library */,
 			);
-			path = AppSetup;
+			path = "AppSetup(抛弃)";
 			sourceTree = "<group>";
 		};
 		D2341327213F40FE00644E4C /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				D2FA118421D30F6A001A9713 /* LQSKit.framework */,
 				D2902B942143631300700C00 /* MJRefresh */,
 				D2902BC32143631400700C00 /* YYWebImage */,
-				D23C5DB0214250CC0075E13F /* libLQSKit.a */,
-				D23C5DB1214250CC0075E13F /* LQSKit */,
 				D23B17D2213F95740045BBD8 /* Masonry */,
 			);
 			path = Library;
@@ -578,7 +539,6 @@
 		D23B17D0213F952C0045BBD8 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				D23B17D1213F954C0045BBD8 /* KaoYaoShiPrefixHeader.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -629,6 +589,7 @@
 		D23B1839213FAB9B0045BBD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2AAD3732159FDB000765B92 /* libstdc++.6.0.9.tbd */,
 				D23B183A213FAB9C0045BBD8 /* WebKit.framework */,
 			);
 			name = Frameworks;
@@ -657,75 +618,6 @@
 				D272D95821476861004606DA /* RD__HomeCollectionReusableTopActivitiesCell.m */,
 			);
 			path = "首页";
-			sourceTree = "<group>";
-		};
-		D23C5DB1214250CC0075E13F /* LQSKit */ = {
-			isa = PBXGroup;
-			children = (
-				D23C5DB2214250CC0075E13F /* EasyGroupView.h */,
-				D23C5DB3214250CC0075E13F /* LQS.h */,
-				D23C5DB4214250CC0075E13F /* LQS_Icon_Arrow_Down_B.png */,
-				D23C5DB5214250CC0075E13F /* LQS_Icon_Arrow_Left_B.png */,
-				D23C5DB6214250CC0075E13F /* LQS_Icon_Arrow_Up_B.png */,
-				D23C5DB7214250CC0075E13F /* LQS_Icon_Home_C.png */,
-				D23C5DB8214250CC0075E13F /* LQS_Icon_More_B.png */,
-				D23C5DB9214250CC0075E13F /* LQS_Icon_Top.png */,
-				D23C5DBA214250CC0075E13F /* LQSAverageView.h */,
-				D23C5DBB214250CC0075E13F /* LQSBasicCollectionReusableView.h */,
-				D23C5DBC214250CC0075E13F /* LQSBasicCollectionViewCell.h */,
-				D23C5DBD214250CC0075E13F /* LQSBasicControl.h */,
-				D23C5DBE214250CC0075E13F /* LQSBasicControlTemplate.h */,
-				D23C5DBF214250CC0075E13F /* LQSBasicObject.h */,
-				D23C5DC0214250CC0075E13F /* LQSBasicTableViewCell.h */,
-				D23C5DC1214250CC0075E13F /* LQSBasicView.h */,
-				D23C5DC2214250CC0075E13F /* LQSBasicViewTemplate.h */,
-				D23C5DC3214250CC0075E13F /* LQSBasicViewTemplateControl.h */,
-				D23C5DC4214250CC0075E13F /* LQSCollectionSectionItem.h */,
-				D23C5DC5214250CC0075E13F /* LQSCollectionView.h */,
-				D23C5DC6214250CC0075E13F /* LQSController.h */,
-				D23C5DC7214250CC0075E13F /* LQSControllerTemplate.h */,
-				D23C5DC8214250CC0075E13F /* LQSHeadCollectionViewController.h */,
-				D23C5DC9214250CC0075E13F /* LQSHeadView.h */,
-				D23C5DCA214250CC0075E13F /* LQSHeadViewController.h */,
-				D23C5DCB214250CC0075E13F /* LQSHeadWebViewController.h */,
-				D23C5DCC214250CC0075E13F /* LQSImageControl.h */,
-				D23C5DCD214250CC0075E13F /* LQSKit.h */,
-				D23C5DCE214250CC0075E13F /* LQSMenu.h */,
-				D23C5DCF214250CC0075E13F /* LQSMenuDetailView.h */,
-				D23C5DD0214250CC0075E13F /* LQSMenuScrollPageView.h */,
-				D23C5DD1214250CC0075E13F /* LQSModel.h */,
-				D23C5DD2214250CC0075E13F /* LQSNotitia.h */,
-				D23C5DD3214250CC0075E13F /* LQSPredefined.h */,
-				D23C5DD4214250CC0075E13F /* LQSProjectAdapter.h */,
-				D23C5DD5214250CC0075E13F /* LQSRequest.h */,
-				D23C5DD6214250CC0075E13F /* LQSRequestImplement.h */,
-				D23C5DD7214250CC0075E13F /* LQSRequestParse.h */,
-				D23C5DD8214250CC0075E13F /* LQSRequestResponse.h */,
-				D23C5DD9214250CC0075E13F /* LQSScrollPageView.h */,
-				D23C5DDA214250CC0075E13F /* LQSStore.h */,
-				D23C5DDB214250CC0075E13F /* LQSTabBarController.h */,
-				D23C5DDC214250CC0075E13F /* LQSView.h */,
-				D23C5DDD214250CD0075E13F /* LQSViewController.h */,
-				D23C5DDE214250CD0075E13F /* LQSViewTemplate.h */,
-				D23C5DDF214250CD0075E13F /* LQSViewTemplateCollection.h */,
-				D23C5DE0214250CD0075E13F /* LQSViewTemplateCollectionItem.h */,
-				D23C5DE1214250CD0075E13F /* LQSWebView.h */,
-				D23C5DE2214250CD0075E13F /* NSArray+LQS.h */,
-				D23C5DE3214250CD0075E13F /* NSDate+LQS.h */,
-				D23C5DE4214250CD0075E13F /* NSDictionary+LQS.h */,
-				D23C5DE5214250CD0075E13F /* NSObject+LQS.h */,
-				D23C5DE6214250CD0075E13F /* NSString+LQS.h */,
-				D23C5DE7214250CD0075E13F /* UIAlertView+LQS.h */,
-				D23C5DE8214250CD0075E13F /* UIButton+LQS.h */,
-				D23C5DE9214250CD0075E13F /* UICollectionView+LQS.h */,
-				D23C5DEA214250CD0075E13F /* UIControl+LQS.h */,
-				D23C5DEB214250CD0075E13F /* UIImageView+LQS.h */,
-				D23C5DEC214250CD0075E13F /* UILabel+LQS.h */,
-				D23C5DED214250CD0075E13F /* UITextField+LQS.h */,
-				D23C5DEE214250CD0075E13F /* UIView+LQS.h */,
-				D23C5DEF214250CD0075E13F /* UIViewController+LQS.h */,
-			);
-			path = LQSKit;
 			sourceTree = "<group>";
 		};
 		D24F8BDA214B53DC00DD74E7 /* 课程 */ = {
@@ -977,6 +869,289 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		D2A43B5C21D296E0005C69D8 /* AppSetup */ = {
+			isa = PBXGroup;
+			children = (
+				D2341327213F40FE00644E4C /* Library */,
+				D2A43B5F21D29733005C69D8 /* Common */,
+				D2A43B5E21D2972D005C69D8 /* Main */,
+				D2A43B5D21D29724005C69D8 /* Section */,
+			);
+			path = AppSetup;
+			sourceTree = "<group>";
+		};
+		D2A43B5D21D29724005C69D8 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B9721D2A35C005C69D8 /* 我的-我的直播 */,
+				D2A43B9621D2A353005C69D8 /* 我的-课程下载 */,
+				D2A43B9521D2A34A005C69D8 /* 我的-我的课程 */,
+				D2A43B9421D2A323005C69D8 /* 我的-修改密码 */,
+				D2A43B9321D2A318005C69D8 /* 我的-个人消息 */,
+				D2A43B9221D2A2E9005C69D8 /* 课程-选择学校项目 */,
+				D2A43B9121D2A29D005C69D8 /* 直播-直播回看 */,
+				D2A43B9021D2A20B005C69D8 /* 题库-模拟考试-随机组卷(准考证) */,
+				D2A43B8F21D2A191005C69D8 /* 题库-模拟考试-历年真题 */,
+				D2A43B8E21D2A141005C69D8 /* 题库-错题笔记 */,
+				D2A43B8D21D2A117005C69D8 /* 题库-收藏题目 */,
+				D2A43B8C21D2A0F9005C69D8 /* 题库-模拟考试 */,
+				D2A43B8B21D2A0EE005C69D8 /* 题库-章节练习 */,
+				D2A43B8A21D2A0DD005C69D8 /* 题库-考点速记 */,
+				D2A43B6D21D297E5005C69D8 /* 我的 */,
+				D2A43B6C21D297DC005C69D8 /* 课程 */,
+				D2A43B6B21D297D6005C69D8 /* 直播 */,
+				D2A43B6A21D297CB005C69D8 /* 题库 */,
+				D2A43B6921D297C1005C69D8 /* 首页 */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		D2A43B5E21D2972D005C69D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B6021D29755005C69D8 /* MainNavigationController.h */,
+				D2A43B6121D29755005C69D8 /* MainNavigationController.m */,
+				D2A43B6321D2976A005C69D8 /* MainTabBarController.h */,
+				D2A43B6421D2976A005C69D8 /* MainTabBarController.m */,
+				D2A43B6621D29780005C69D8 /* MainBoxController.h */,
+				D2A43B6721D29780005C69D8 /* MainBoxController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D2A43B5F21D29733005C69D8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D23B17D1213F954C0045BBD8 /* KaoYaoShiPrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D2A43B6921D297C1005C69D8 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B7721D29838005C69D8 /* Controller */,
+				D2A43B7621D29834005C69D8 /* View */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D2A43B6A21D297CB005C69D8 /* 题库 */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B7521D2982E005C69D8 /* Controller */,
+				D2A43B7421D2982A005C69D8 /* View */,
+			);
+			path = "题库";
+			sourceTree = "<group>";
+		};
+		D2A43B6B21D297D6005C69D8 /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B7321D29825005C69D8 /* Controller */,
+				D2A43B7221D29821005C69D8 /* View */,
+			);
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		D2A43B6C21D297DC005C69D8 /* 课程 */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B7121D2981D005C69D8 /* Controller */,
+				D2A43B7021D2981A005C69D8 /* View */,
+			);
+			path = "课程";
+			sourceTree = "<group>";
+		};
+		D2A43B6D21D297E5005C69D8 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B6F21D29814005C69D8 /* Controller */,
+				D2A43B6E21D2980F005C69D8 /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		D2A43B6E21D2980F005C69D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2A43B6F21D29814005C69D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B7821D29852005C69D8 /* YCMineVC.h */,
+				D2A43B7921D29852005C69D8 /* YCMineVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2A43B7021D2981A005C69D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2A43B7121D2981D005C69D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B7B21D29871005C69D8 /* YCCourseVC.h */,
+				D2A43B7C21D29871005C69D8 /* YCCourseVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2A43B7221D29821005C69D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2A43B7321D29825005C69D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B7E21D298A2005C69D8 /* YCLiveVC.h */,
+				D2A43B7F21D298A2005C69D8 /* YCLiveVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2A43B7421D2982A005C69D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B8721D29D31005C69D8 /* YCQuestionBankView.h */,
+				D2A43B8821D29D31005C69D8 /* YCQuestionBankView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2A43B7521D2982E005C69D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B8121D298C6005C69D8 /* YCQuestionBankVC.h */,
+				D2A43B8221D298C6005C69D8 /* YCQuestionBankVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2A43B7621D29834005C69D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2A43B7721D29838005C69D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D2A43B8421D298D4005C69D8 /* YCHomeVC.h */,
+				D2A43B8521D298D4005C69D8 /* YCHomeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D2A43B8A21D2A0DD005C69D8 /* 题库-考点速记 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "题库-考点速记";
+			sourceTree = "<group>";
+		};
+		D2A43B8B21D2A0EE005C69D8 /* 题库-章节练习 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "题库-章节练习";
+			sourceTree = "<group>";
+		};
+		D2A43B8C21D2A0F9005C69D8 /* 题库-模拟考试 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "题库-模拟考试";
+			sourceTree = "<group>";
+		};
+		D2A43B8D21D2A117005C69D8 /* 题库-收藏题目 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "题库-收藏题目";
+			sourceTree = "<group>";
+		};
+		D2A43B8E21D2A141005C69D8 /* 题库-错题笔记 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "题库-错题笔记";
+			sourceTree = "<group>";
+		};
+		D2A43B8F21D2A191005C69D8 /* 题库-模拟考试-历年真题 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "题库-模拟考试-历年真题";
+			sourceTree = "<group>";
+		};
+		D2A43B9021D2A20B005C69D8 /* 题库-模拟考试-随机组卷(准考证) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "题库-模拟考试-随机组卷(准考证)";
+			sourceTree = "<group>";
+		};
+		D2A43B9121D2A29D005C69D8 /* 直播-直播回看 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "直播-直播回看";
+			sourceTree = "<group>";
+		};
+		D2A43B9221D2A2E9005C69D8 /* 课程-选择学校项目 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "课程-选择学校项目";
+			sourceTree = "<group>";
+		};
+		D2A43B9321D2A318005C69D8 /* 我的-个人消息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的-个人消息";
+			sourceTree = "<group>";
+		};
+		D2A43B9421D2A323005C69D8 /* 我的-修改密码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的-修改密码";
+			sourceTree = "<group>";
+		};
+		D2A43B9521D2A34A005C69D8 /* 我的-我的课程 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的-我的课程";
+			sourceTree = "<group>";
+		};
+		D2A43B9621D2A353005C69D8 /* 我的-课程下载 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的-课程下载";
+			sourceTree = "<group>";
+		};
+		D2A43B9721D2A35C005C69D8 /* 我的-我的直播 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的-我的直播";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1035,14 +1210,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D23C5DF4214250CD0075E13F /* LQS_Icon_Home_C.png in Resources */,
-				D23C5DF5214250CD0075E13F /* LQS_Icon_More_B.png in Resources */,
 				D234131D213F40AE00644E4C /* LaunchScreen.storyboard in Resources */,
-				D23C5DF3214250CD0075E13F /* LQS_Icon_Arrow_Up_B.png in Resources */,
 				D234131A213F40AE00644E4C /* Assets.xcassets in Resources */,
-				D23C5DF2214250CD0075E13F /* LQS_Icon_Arrow_Left_B.png in Resources */,
-				D23C5DF1214250CD0075E13F /* LQS_Icon_Arrow_Down_B.png in Resources */,
-				D23C5DF6214250CD0075E13F /* LQS_Icon_Top.png in Resources */,
 				D2902BFA2143631400700C00 /* MJRefresh.bundle in Resources */,
 				D2341318213F40AE00644E4C /* Main.storyboard in Resources */,
 			);
@@ -1056,6 +1225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D272D95921476861004606DA /* RD__HomeCollectionReusableTopActivitiesCell.m in Sources */,
+				D2A43B6221D29755005C69D8 /* MainNavigationController.m in Sources */,
+				D2A43B8021D298A2005C69D8 /* YCLiveVC.m in Sources */,
 				D2902C082143631400700C00 /* UIImage+YYWebImage.m in Sources */,
 				D2902B8821435AC200700C00 /* CommonMainMenuViewItem.m in Sources */,
 				D2902C0F2143631400700C00 /* YYImageCache.m in Sources */,
@@ -1078,6 +1249,7 @@
 				D2902BFB2143631400700C00 /* MJRefreshConst.m in Sources */,
 				D272D95D21477035004606DA /* RD__ActityListController.m in Sources */,
 				D26A96C121475CFC00A63930 /* HomeActityRecommendListRequest.m in Sources */,
+				D2A43B7D21D29871005C69D8 /* YCCourseVC.m in Sources */,
 				D23B184E213FB03C0045BBD8 /* RD__HomeCollectionReusableHeader.m in Sources */,
 				D2902B8F21435ACF00700C00 /* CommonRootController.m in Sources */,
 				D2902C092143631400700C00 /* UIImageView+YYWebImage.m in Sources */,
@@ -1088,6 +1260,7 @@
 				D2902C0D2143631400700C00 /* YYImageCoder.m in Sources */,
 				D2902BF92143631400700C00 /* MJRefreshStateHeader.m in Sources */,
 				D23B17F2213F95740045BBD8 /* NSArray+MASAdditions.m in Sources */,
+				D2A43B6821D29780005C69D8 /* MainBoxController.m in Sources */,
 				D2341315213F40AE00644E4C /* ViewController.m in Sources */,
 				D23B1836213F9C180045BBD8 /* RD__MainMenuViewItem.m in Sources */,
 				D2341320213F40AE00644E4C /* main.m in Sources */,
@@ -1104,6 +1277,7 @@
 				D2341312213F40AE00644E4C /* AppDelegate.m in Sources */,
 				D2902BF22143631400700C00 /* MJRefreshAutoNormalFooter.m in Sources */,
 				D23B17F5213F95740045BBD8 /* ViewController+MASAdditions.m in Sources */,
+				D2A43B6521D2976A005C69D8 /* MainTabBarController.m in Sources */,
 				D23B17F4213F95740045BBD8 /* View+MASAdditions.m in Sources */,
 				D24F8BE9214B55D200DD74E7 /* CourseTypeRequest.m in Sources */,
 				D23B17F0213F95740045BBD8 /* MASViewAttribute.m in Sources */,
@@ -1113,12 +1287,14 @@
 				D2902C0B2143631400700C00 /* YYFrameImage.m in Sources */,
 				D2902BF52143631400700C00 /* MJRefreshBackNormalFooter.m in Sources */,
 				D2902C112143631400700C00 /* YYWebImageOperation.m in Sources */,
+				D2A43B8921D29D31005C69D8 /* YCQuestionBankView.m in Sources */,
 				D23B184B213FAF3F0045BBD8 /* RD__HomeView.m in Sources */,
 				D2902BF82143631400700C00 /* MJRefreshNormalHeader.m in Sources */,
 				D2902BFF2143631400700C00 /* UIView+MJExtension.m in Sources */,
 				D2902C002143631400700C00 /* YYCache.m in Sources */,
 				D23B182F213F9BAB0045BBD8 /* RD__MainController.m in Sources */,
 				D23B1841213FAE030045BBD8 /* RD__LiveBroadcastController.m in Sources */,
+				D2A43B8621D298D4005C69D8 /* YCHomeVC.m in Sources */,
 				D272D953214764F6004606DA /* RD__WebDetailController.m in Sources */,
 				D2902C012143631400700C00 /* YYDiskCache.m in Sources */,
 				D23B1857213FB1060045BBD8 /* RD__HomeCollectionReusableRecommendLiveBroadcast.m in Sources */,
@@ -1127,6 +1303,7 @@
 				D23B17ED213F95740045BBD8 /* MASConstraint.m in Sources */,
 				D23B1844213FAE230045BBD8 /* RD__CourseController.m in Sources */,
 				D2902BED2143631400700C00 /* MJRefreshBackFooter.m in Sources */,
+				D2A43B8321D298C6005C69D8 /* YCQuestionBankVC.m in Sources */,
 				D23B1833213F9BE90045BBD8 /* RD__MainMenuView.m in Sources */,
 				D23B185A213FB13A0045BBD8 /* RD__HomeCollectionReusableRecommendCourse.m in Sources */,
 				D2902BFE2143631400700C00 /* UIScrollView+MJRefresh.m in Sources */,
@@ -1135,6 +1312,7 @@
 				D2902BF32143631400700C00 /* MJRefreshAutoStateFooter.m in Sources */,
 				D23B185D213FB1790045BBD8 /* RD__HomeCollectionReusableTopActivities.m in Sources */,
 				D23B182C213F9B830045BBD8 /* RD__RootController.m in Sources */,
+				D2A43B7A21D29852005C69D8 /* YCMineVC.m in Sources */,
 				D26A96BE2147559100A63930 /* HomeUserOrderDetailsRequest.m in Sources */,
 				D2902B8921435AC200700C00 /* CommonMainMenuView.m in Sources */,
 			);
@@ -1272,8 +1450,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJF33NPHSX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppSetup/Library",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/AppSetup/Other/KaoYaoShiPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AppSetup/Common/KaoYaoShiPrefixHeader.pch";
 				INFOPLIST_FILE = RDKaoYaoShi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1297,8 +1479,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJF33NPHSX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppSetup/Library",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/AppSetup/Other/KaoYaoShiPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AppSetup/Common/KaoYaoShiPrefixHeader.pch";
 				INFOPLIST_FILE = RDKaoYaoShi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

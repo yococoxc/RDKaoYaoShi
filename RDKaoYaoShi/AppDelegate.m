@@ -10,6 +10,8 @@
 
 #import "RD__RootController.h"
 
+#import "MainTabBarController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,17 +22,115 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    
+    
+    
     [self toOK:self.window];
+
+
+//    if ([self version:@"1.2" greaterThanVersion:@"1.0.2"] == 0) {
+//        NSLog(@"1.2 大于 1.0.2");
+//    } else {
+//        NSLog(@"1.2 不大于 1.0.2");
+//    }
+//
+//    if ([self version:@"1.2" greaterThanVersion:@"1.2.0"] == 0) {
+//        NSLog(@"1.2 大于 1.2.0");
+//    } else {
+//        NSLog(@"1.2 不大于 1.2.0");
+//    }
+//
+//    if ([self version:@"1.2.3" greaterThanVersion:@"1.2.3"] == 0) {
+//        NSLog(@"1.2.3 大于 1.2.3");
+//    } else {
+//        NSLog(@"1.2.3 不大于 1.2.3");
+//    }
+//
+//
+//    if ([self version:@"1.3" greaterThanVersion:@"1.2.0.4"] == 0) {
+//        NSLog(@"1.3 大于 1.2.0.4");
+//    } else {
+//        NSLog(@"1.3 不大于 1.2.0.4");
+//    }
+    
     
     return YES;
+}
+
+/**
+ 0，大于
+ 1，非大于
+ 2，不是上述的情况
+ */
+- (int) version:(NSString*)version greaterThanVersion:(NSString*)otherVersion {
+    if ([version isKindOfClass:[NSString class]] == NO) {
+        return 2;
+    }
+    if ([otherVersion isKindOfClass:[NSString class]] == NO) {
+        return 2;
+    }
+    
+    NSArray* array = [version componentsSeparatedByString:@"."];
+    NSArray* otherArray = [otherVersion componentsSeparatedByString:@"."];
+    
+    NSUInteger count = [array count];
+    if (count > [otherArray count]) {
+        count = [otherArray count];
+    }
+    
+    BOOL isOK = NO;
+    for (NSUInteger index = 0; index < count; index++) {
+        NSString* string = [array objectAtIndex:index];
+        NSString* otherString = [otherArray objectAtIndex:index];
+        
+        if ([string integerValue] > [otherString integerValue]) {
+            isOK = YES;
+            break;
+        }
+    }
+    
+    
+    if (isOK == NO) {
+        if ([array count] > [otherArray count]) {
+            //array 多
+            for (NSUInteger index = count - 1; index < [array count]; index++) {
+                NSString* string = [array objectAtIndex:index];
+                if ([string integerValue] > 0) {
+                    isOK = YES;
+                    break;
+                }
+            }
+        } else if ([array count] < [otherArray count]) {
+            //otherArray 多
+//            for (NSUInteger index = count - 1; index < [otherArray count]; index++) {
+//                NSString* otherString = [otherArray objectAtIndex:index];
+//                if ([otherString integerValue] > 0) {
+//                    isOK = NO;
+//                    break;
+//                }
+//            }
+        }
+    }
+    
+    if (isOK == YES) {
+        return 0;
+    } else {
+        return 1;
+    }
 }
 
 - (void) toOK:(UIWindow*)window {
     window.backgroundColor = [UIColor whiteColor];
     
-    RD__RootController* temp = [RD__RootController shareController];
-    window.rootViewController = temp;
-    [window makeKeyAndVisible];
+//    RD__RootController* temp = [RD__RootController shareController];
+//    window.rootViewController = temp;
+//    [window makeKeyAndVisible];
+    
+    
+    MainTabBarController *mainTabBarC = [MainTabBarController new];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = mainTabBarC;
 }
 
 

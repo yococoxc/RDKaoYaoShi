@@ -1,0 +1,6 @@
+framework module LQSKit {
+  umbrella header "LQSKit.h"
+
+  export *
+  module * { export * }
+}

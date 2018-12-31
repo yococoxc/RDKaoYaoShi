@@ -1,0 +1,49 @@
+//
+//  KaoYaoShiPrefixHeader.pch
+//  RDKaoYaoShi
+//
+//  Created by muzico on 2018/9/5.
+//  Copyright © 2018年 muzico. All rights reserved.
+//
+
+#ifndef KaoYaoShiPrefixHeader_pch
+#define KaoYaoShiPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define APIDomainName @"http://193.112.100.126"
+#define APIOtherDomain @"/json/kaoyaoshi"
+#define ImageDomainName @"http://img.kaoyaoshi.net"
+
+
+#define CommonTabBarTitleSelectedColor @"#F3BC15"
+
+#import <LQSKit/LQSKit.h>
+#import "Masonry.h"
+#import "MainBoxController.h"
+#import "MainNavigationController.h"
+
+#import "Common.h"
+
+
+
+#define CurrentNavigationControllerPushViewController(vc,selfOrWeakSelf) \
+LQSBoxController *boxController = [MainBoxController createWithBody:vc];\
+UIViewController *currentVC = [selfOrWeakSelf lqs_currentViewControllerWithClass:[LQSBoxController class]];\
+[currentVC lqs_currentNavigationControllerPushViewController:boxController];
+
+#define CurrentNavigationControllerPopViewController(selfOrWeakSelf) \
+UIViewController *currentVC = [selfOrWeakSelf lqs_currentViewControllerWithClass:[LQSBoxController class]];\
+[currentVC lqs_currentNavigationControllerPopViewController];
+
+#define CurrentControllerPresentViewController(vc,selfOrWeakSelf) \
+MainBoxController *box = [MainBoxController createWithBody:vc];\
+UIViewController *currentVC = [self lqs_currentViewControllerWithClass:[LQSBoxController class]];\
+[currentVC lqs_currentControllerPresentViewController:box];
+
+#define CurrentControllerDismissViewController(selfOrWeakSelf) \
+UIViewController *currentVC = [selfOrWeakSelf lqs_currentViewControllerWithClass:[LQSBoxController class]];\
+[currentVC lqs_currentControllerDismissViewController];
+
+#endif /* KaoYaoShiPrefixHeader_pch */
